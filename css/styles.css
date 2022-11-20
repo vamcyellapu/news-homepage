@@ -1,3 +1,9 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -5,4 +11,42 @@ html {
 body {
   font-family: "Inter", sans-serif;
   font-size: 1.5rem;
+  background-color: hsl(36deg, 100%, 99%);
+  line-height: 1.5;
+  color: hsl(236deg, 13%, 42%);
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1;
+  color: hsl(240deg, 100%, 5%);
+}
+
+h2 {
+  font-size: 3rem;
+  color: hsl(35deg, 77%, 62%);
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+}
+.btn {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  letter-spacing: 4px;
+  font-weight: 700;
+  background-color: hsl(5deg, 85%, 63%);
+  color: hsl(36deg, 100%, 99%);
+  border: none;
 }/*# sourceMappingURL=styles.css.map */
