@@ -49,4 +49,16 @@ h3 {
   background-color: hsl(5deg, 85%, 63%);
   color: hsl(36deg, 100%, 99%);
   border: none;
+}
+
+.link--primary, .link--secondary {
+  text-decoration: none;
+}
+
+.link--primary:hover h3 {
+  color: hsl(5deg, 85%, 63%);
+}
+
+.link--secondary:hover h3 {
+  color: hsl(35deg, 77%, 62%);
 }/*# sourceMappingURL=styles.css.map */

@@ -38,6 +38,7 @@ h2{
 h3{
     font-size: 2rem;
     font-weight: 900;
+    
 }
 
 @media screen and (min-width: 768px ) {
@@ -60,3 +61,18 @@ background-color: $soft-red;
 color: $off-white ;
 border: none;
 }
+
+// links
+.link--primary,.link--secondary{
+text-decoration: none;
+
+}
+
+.link--primary:hover h3{
+color: $soft-red;
+}
+.link--secondary:hover h3{
+    color: $soft-orange;
+}
+
+
