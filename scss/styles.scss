@@ -76,3 +76,33 @@ color: $soft-red;
 }
 
 
+// Media component
+
+.media{
+    display: flex;
+    gap: 2rem;
+    max-width: 36rem;
+    
+    &__img{
+       width: 10rem;
+       object-fit: cover;
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        h3{
+            color:$very-dark-blue;
+         
+        }
+
+    }
+    &__num{
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: $grayish-blue;
+    }
+    &__discription{
+        line-height: 1.7;
+    }
+}

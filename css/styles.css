@@ -61,4 +61,31 @@ h3 {
 
 .link--secondary:hover h3 {
   color: hsl(35deg, 77%, 62%);
+}
+
+.media {
+  display: flex;
+  gap: 2rem;
+  max-width: 36rem;
+}
+.media__img {
+  width: 10rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.media__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.media__content h3 {
+  color: hsl(240deg, 100%, 5%);
+}
+.media__num {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: hsl(233deg, 8%, 79%);
+}
+.media__discription {
+  line-height: 1.7;
 }/*# sourceMappingURL=styles.css.map */
