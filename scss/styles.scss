@@ -21,15 +21,17 @@ body{
     background-color: $off-white;
     line-height: 1.5;
     color: $dark-grayish-blue;
+    padding: 1rem;
 }
 
 // Typography
 
 h1{
-font-size: 4rem;
+font-size: 3.5rem;
 font-weight: 900;
 line-height: 1;
 color: $very-dark-blue;
+margin-bottom: 1rem;
 }
 h2{
     font-size: 3rem;
@@ -60,8 +62,13 @@ font-weight: 700;
 background-color: $soft-red;
 color: $off-white ;
 border: none;
+transition: all .3s;
 }
-
+.btn:hover{
+    background-color: $very-dark-blue;
+    color: $off-white;
+    cursor: pointer;
+}
 // links
 .link--primary,.link--secondary{
 text-decoration: none;
@@ -151,4 +158,45 @@ color: $soft-red;
     border: none;
     padding-bottom: 1rem;
 }
+}
+
+// main-section
+
+.main-section{
+    img{
+      max-height: 30rem;
+      width: 100%;
+      object-fit: cover ;
+    }
+}
+.main__bottom{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    p{
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+.main__bottom{
+    margin-top: 1.5rem;
+    flex-direction: row;
+    gap: 5rem;
+    h1{
+        flex-grow: 1fr;
+    }
+    .main__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-grow: 1fr;
+        padding-right: 1rem;
+        .btn{
+            align-self:flex-start;
+        }
+    }
+}
+    
 }
