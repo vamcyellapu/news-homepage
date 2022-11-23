@@ -66,7 +66,7 @@ h3 {
 .media {
   display: flex;
   gap: 2rem;
-  max-width: 36rem;
+  width: 36rem;
 }
 .media__img {
   width: 10rem;
@@ -88,4 +88,20 @@ h3 {
 }
 .media__discription {
   line-height: 1.7;
+}
+
+.media-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1150px;
+}
+
+@media screen and (min-width: 768px) {
+  .media-section {
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=styles.css.map */

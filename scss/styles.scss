@@ -81,7 +81,8 @@ color: $soft-red;
 .media{
     display: flex;
     gap: 2rem;
-    max-width: 36rem;
+    width: 36rem;
+   
     
     &__img{
        width: 10rem;
@@ -104,5 +105,23 @@ color: $soft-red;
     }
     &__discription{
         line-height: 1.7;
+    }
+}
+
+// Media section
+
+.media-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1150px;
+}
+
+@media screen and (min-width: 768px) {
+    .media-section{
+        flex-direction: row;
     }
 }
