@@ -104,4 +104,27 @@ h3 {
   .media-section {
     flex-direction: row;
   }
+}
+.news-letter {
+  background-color: hsl(240deg, 100%, 5%);
+  color: hsl(233deg, 8%, 79%);
+  padding: 2rem;
+}
+.news-letter h3 {
+  color: hsl(36deg, 100%, 99%);
+  font-size: 1.5;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.news-letter .new__item {
+  padding: 2rem 0;
+  border-bottom: 1px solid hsla(233deg, 8%, 79%, 0.6);
+}
+.news-letter .new__item P {
+  opacity: 0.8;
+}
+.news-letter .new__item:last-child {
+  border: none;
+  padding-bottom: 1rem;
 }/*# sourceMappingURL=styles.css.map */

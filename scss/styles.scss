@@ -125,3 +125,30 @@ color: $soft-red;
         flex-direction: row;
     }
 }
+
+// News letter
+
+.news-letter{
+    background-color: $very-dark-blue;
+    color: $grayish-blue;
+    padding: 2rem;
+   h3{
+    color: $off-white;
+    font-size: 1.5;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: .5rem;
+   }
+   .new__item{
+    padding: 2rem 0;
+    border-bottom: 1px solid hsla(233, 8%, 79%, 0.6);
+    P{
+        opacity: .8;
+    }
+    
+   }
+   .new__item:last-child{
+    border: none;
+    padding-bottom: 1rem;
+}
+}
