@@ -301,6 +301,11 @@ a {
     }
     &__list {
       display: flex;
+      flex-direction: row;
+      position: relative;
+      min-height: auto;
+      padding: 0;
+      justify-content: flex-end;
     }
   }
 }
